@@ -1,45 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Feed</title>
+    <title>Breathe Code Photo Feed</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Breathe Code Photo Feed</h1>
-    </header>
+    <div class="container">
+        <header class="header">
+            <h1>Breathe Code Photo Feed</h1>
+        </header>
+        
+        <main class="feed">
+            <article class="post">
+                <div class="post-header">
+                    <h2 class="post-title">My first photo</h2>
+                    <span class="post-date">12/14</span>
+                </div>
+                
+                <div class="post-image-container">
+                    <img src="https://images.unsplash.com/photo-1605568427561-40dd23c2acea?w=600&h=400&fit=crop" 
+                         alt="Cute husky puppy" 
+                         class="post-image">
+                </div>
+                
+                <div class="post-content">
+                    <p class="post-description">
+                        This is my first photo of the feed. this is a multi line comment for testing 
+                        purposes. I am learning to code with #BreatheCode
+                    </p>
+                </div>
+            </article>
 
-    <section class="post">
-        <div class="post-header">
-            <h2>My first photo</h2>
-            <span class="date">12/14</span>
-        </div>
-        <div class="post-img">
-            <img src="https://place-puppy.com/600x400" alt="puppy">
-        </div>
-        <div class="post-footer">
-            <p>
-                This is my first photo of the feed. This is a multi line comment for testing purposes. 
-                I am learning to code with <strong>#BreatheCode</strong>.
-            </p>
-        </div>
-    </section>
+            <article class="post">
+                <div class="post-header">
+                    <h2 class="post-title">Some cute thing</h2>
+                    <span class="post-date">12/17</span>
+                </div>
+                
+                <div class="post-image-container">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop" 
+                         alt="Forest landscape" 
+                         class="post-image">
+                </div>
+                
+                <div class="post-content">
+                    <p class="post-description">
+                        Beautiful forest landscape with tall green trees. Nature is amazing and 
+                        provides us with so much peace and tranquility.
+                    </p>
+                </div>
+            </article>
 
-    <section class="post">
-        <div class="post-header">
-            <h2>Some cute thing</h2>
-            <span class="date">12/17</span>
-        </div>
-        <div class="post-img">
-            <img src="https://placehold.co/600x400" alt="tree">
-        </div>
-        <div class="post-footer">
-            <p>
-                Another example of a feed photo. Practicing my HTML and CSS skills 🚀
-            </p>
-        </div>
-    </section>
+            <article class="post">
+                <div class="post-header">
+                    <h2 class="post-title">Amazing sunset</h2>
+                    <span class="post-date">12/18</span>
+                </div>
+                
+                <div class="post-image-container">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop" 
+                         alt="Beautiful sunset" 
+                         class="post-image">
+                </div>
+                
+                <div class="post-content">
+                    <p class="post-description">
+                        Captured this amazing sunset yesterday. The colors were absolutely breathtaking 
+                        and I had to share it with everyone. #photography #sunset
+                    </p>
+                </div>
+            </article>
+        </main>
+    </div>
 </body>
 </html>
