@@ -94,7 +94,6 @@ body {
     margin: 0;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .container {
         max-width: 100%;
@@ -122,13 +121,11 @@ body {
     }
 }
 
-/* Hover effects */
 .post:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
 }
 
-/* Loading animation for images */
 .post-image {
     transition: opacity 0.3s ease-in-out;
 }
@@ -137,12 +134,11 @@ body {
     opacity: 0.95;
 }
 
-/* Hashtag styling */
 .post-description {
     word-wrap: break-word;
 }
 
-/* Add some Instagram-like styling touches */
+
 .post-header::before {
     content: '';
     position: absolute;
