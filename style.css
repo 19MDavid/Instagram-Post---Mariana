@@ -88,44 +88,9 @@ body {
     margin: 0;
 }
 
-@media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        margin: 0;
-    }
-    
-    .post {
-        border-radius: 0;
-        border-left: none;
-        border-right: none;
-        margin-bottom: 0;
-        border-bottom: 8px solid #fafafa;
-    }
-    
-    .header {
-        padding: 16px;
-    }
-    
-    .header h1 {
-        font-size: 20px;
-    }
-    
-    .post-image {
-        height: 300px;
-    }
-}
-
 .post:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
-}
-
-.post-image {
-    transition: opacity 0.3s ease-in-out;
-}
-
-.post-image:hover {
-    opacity: 0.95;
 }
 
 .post-description {
